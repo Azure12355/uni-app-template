@@ -1,8 +1,13 @@
 ## 项目简介
 
-小兔鲜儿项目包含从首页浏览商品，商品详情，微信登录，加入购物车，提交订单，微信支付，订单管理等功能。
+基于Vue3+Ts+Vite的uni-app项目模板, 完成了复杂冗余的项目配置, 包括但不限于以下几方面:
+- 增加`@dcloudio/types`为uni-app提供ts类型校验
+- 增加`@dcloudio/uni-ui`uni-ui组件库
+- 增加`@uni-helper/uni-ui-types`为uni-ui组件提供ts类型校验
+- 增加`@uni-helper/uni-app-types`和`@uni-helper/uni-ui-types`的uni-helper的ts类型
+- 配置`pinia`状态管理并实现持久化
+- 封装通用的`request`请求
 
-当前仓库为小兔鲜儿的**项目模板**。
 
 ### 技术栈
 
